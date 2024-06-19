@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Container({ children, title }: { children: React.ReactNode, title: string }) {
     return (
@@ -16,8 +15,8 @@ function Container({ children, title }: { children: React.ReactNode, title: stri
             </div>
 
             {/* <div className='flex flex-row'> */}
-                {/* <div className='w-4 h-full'></div> */}
-                {children}
+            {/* <div className='w-4 h-full'></div> */}
+            {children}
             {/* </div> */}
 
             <div className="flex items-center gap-5 mt-4">
